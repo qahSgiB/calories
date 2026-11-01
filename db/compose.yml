@@ -11,7 +11,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - web-proktik-db-data:/var/lib/postgresql/data
+      - web-proktik-db-data:/var/lib/postgresql
     secrets:
       - db_password
 
